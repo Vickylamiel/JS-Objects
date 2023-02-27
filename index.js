@@ -129,9 +129,7 @@ const presidentialCandidates = {
 }
 
 for (const key in presidentialCandidates) {
-    if(key == 'PDP') {
         console.log(`${presidentialCandidates[key]} is the presidential candidate of ${key}`)
-    }
 }
 /**
  * Omoyele Sowore is the presidential candidate of AAC
